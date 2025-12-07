@@ -1,5 +1,6 @@
 # 🏥 Dual-Mode Analog Thermometer  
 
+![Project Banner](Images/image.png) <!-- Add an image of your device or schematic if available -->
 
 ## 📌 Overview  
 The **Dual-Mode Analog Thermometer** is a precision temperature measurement device designed using **analog components** to ensure high accuracy and reliability. Unlike fully digital thermometers, this design utilizes **thermistors, Wheatstone bridges, and an instrumentation amplifier** for precise temperature readings.  
@@ -28,8 +29,38 @@ This project was developed as part of the **EN2091 Laboratory Practice and Proje
 | **Arduino** | Handles display functionality |
 | **Power Supply** | Converts AC to +10V, -10V, and 5V |
 
-## 📸 Images & Schematics  
-(Add relevant images of your circuit, PCB, and final enclosure here)  
+## 🧩 Schematic & PCB Design
+
+We designed both the **schematic** and **printed circuit boards (PCBs)** using **Altium Designer**. The project includes:
+
+- 🧠 **Main Thermometer PCB** – Houses the signal conditioning circuit using Wheatstone bridges, thermistors, and an instrumentation amplifier.
+- 🔋 **Dual Power Supply PCB** – Converts AC input into stable **+10V, -10V, and 5V** DC outputs. 
+
+### 🖼️ Visuals:
+![📐 Schematic](Images/schematic.jpeg)
+> *Complete circuit schematic designed in Altium Designer.*
+
+![🔧 Sensor PCB](Images/pcb_main.jpeg)
+> *Main PCB for the analog thermometer circuit.*
+
+![⚡ Power PCB](Images/pcb.jpeg)
+> *Power supply PCB providing +10V, -10V, and 5V rails.*
+
+---
+
+## 🧱 Enclosure Design
+
+To protect and house the electronics, we created a **cost-effective 3D-printed enclosure** using **SolidWorks**. The design features:
+
+- 💡 **Compact & Ergonomic** layout for portability and ease of use.
+- 🛠️ **Snap-fit joints** for quick assembly without screws.
+- 🔄 **Modular access** to switch between body and liquid temperature modes.
+- 📏 **Display window** for OLED visibility and button access.
+
+### 🖼️ Visual:
+![🧊 Enclosure](Images/enclosure.jpeg)
+> *3D-modeled enclosure designed for compactness and cost-efficient 3D printing.*
+
 
 ## 🚀 Getting Started  
 ### 🔧 Requirements  
@@ -43,13 +74,12 @@ This project was developed as part of the **EN2091 Laboratory Practice and Proje
 4. **Use the Toggle Switch** to switch between temperature modes.  
 5. **Observe the Temperature Readings** on the OLED display.  
 
-## 📜 License  
-This project is licensed under the **MIT License**. Feel free to modify and improve upon it!  
 
 ## 🤝 Contributors  
-- **Luchitha** – Circuit Design, PCB, and Enclosure  
-- **Team Voltcrew** – Development & Testing  
+- Luchitha Perera
+- Benul Wijayarathna
+- Sanugi Wickramasinghe
+- Hansani Kaumadi 
 
-## ⭐ Acknowledgments  
-Special thanks to our **EN2091** module instructors and teammates for their guidance and support!  
+
 
